@@ -1,0 +1,23 @@
+import java.util.ArrayList;
+
+public class BigScruff {
+private int place;
+private String name;
+
+public void setPlace(int place) {
+	this.place = place;
+}
+
+public int getPlace() {
+	return this.place;
+}
+public void setName(int yaboy) {
+	this.name = yaboy + "";
+}
+
+public int getName() {
+	return this.place;
+}
+
+
+}

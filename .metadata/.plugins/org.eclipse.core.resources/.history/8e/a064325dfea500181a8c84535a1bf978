@@ -1,0 +1,8 @@
+import java.util.ArrayList;
+
+public class BigScruff {
+private ArrayList<Object> itsyaboy = new ArrayList<Object>();
+private int place;
+private String name;
+
+}

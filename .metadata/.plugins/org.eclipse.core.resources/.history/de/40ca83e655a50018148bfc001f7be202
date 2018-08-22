@@ -1,0 +1,22 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+		
+		Motorcycle suzuki = new Motorcycle();
+		suzuki.setCC(200);
+		suzuki.setColour("Green");
+		suzuki.setEngine("DualCylinder");
+		suzuki.setManufacturer("Suzuki");
+		
+		Vehicle toyota = new Vehicle();
+		toyota.setColour("blue");
+		toyota.setEngine("DualCylinder");
+		toyota.setManufacturer("toyota");
+		
+		Garage g = new Garage();
+		
+		g.putVehicle(toyota);
+		System.out.println(g.getCost());
+	}
+}

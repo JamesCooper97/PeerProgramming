@@ -1,0 +1,33 @@
+
+public class DoTheMathTheMonsterMath {
+	public static void main(String[] args)
+	{
+		//DO SOMETHing
+		int v = 120;
+		int t = divide(v);
+		if (t==0) {
+			System.out.println("NONE");
+		} else {
+			System.out.println(t + "!");
+		}
+	}
+	public static int divide(double num)
+	{
+		int b = 1;
+		boolean a = true;
+		while (a) 
+		{
+			num = num/b;
+			System.out.println(num);
+			if (!((num%(b))==0)) {
+				a = false;
+				return 0;
+			} else if (num==1) {
+				a = false;
+			}
+			b++;
+		}
+		System.out.println(b);
+		return b;
+	}
+}

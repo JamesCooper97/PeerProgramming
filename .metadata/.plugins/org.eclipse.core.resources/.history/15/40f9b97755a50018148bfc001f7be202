@@ -1,0 +1,15 @@
+
+public class Car extends Vehicle{
+	private int numSeats;
+	private boolean airBags;
+	
+
+	public void setSeats(int numSeats) {
+	this.numSeats = numSeats;	
+	}
+
+	public int getSeats() {
+	return this.numSeats;
+	}
+	
+}

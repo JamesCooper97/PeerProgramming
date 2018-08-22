@@ -1,0 +1,30 @@
+
+public class Blackjack {
+
+	public static int blackjack(int a, int b) {
+		if (a > 21 && b > 21) {
+			return 0;
+		}
+		else if(a <= 21 && b > 21) {
+			return a;
+		}
+		else if(a > 21 && b <= 21) {
+			return b;
+		}
+		else if(a > b) {
+			return a;
+		}
+		else {
+			return b;
+		}
+	}
+	
+	public static void main(String[] args) {
+
+		int a1 = 21; int a2 = 22;
+		int s = blackjack(a1,a2);
+		System.out.println(s);
+
+	}
+
+}

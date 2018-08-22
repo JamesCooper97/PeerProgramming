@@ -1,0 +1,25 @@
+
+public class Person {
+	
+	private String name;
+	private int age;
+	private String jobTitle;
+	
+	
+	public String toString() {
+		String str = (name + "," + age + "," + jobTitle);
+		return str;
+	}
+
+	public void setName(String name) {
+		this.name = name;
+	}
+	public void setAge(int age) {
+		this.age = age;
+	}
+	public void setJob(String job) {
+		this.jobTitle = job;
+	}
+	
+	
+}

@@ -1,0 +1,46 @@
+
+public class Main {
+public static void main(String[] args) {
+		
+int doggonumberone = 3;
+int[] bigoledogs = new int[100];
+bigoledogs = getmedogs(doggonumberone -1);
+for(int i = 0; i<bigoledogs.length; i++){
+if (bigoledogs[i] == 0){
+continue;
+}
+if(bigoledogs[i] % 10 == 1 && bigoledogs[i] % 100 != 11){
+System.out.print(bigoledogs[i] + "st, ");
+continue;
+}
+if(bigoledogs[i] % 10 == 2){
+System.out.print(bigoledogs[i] + "nd, ");
+continue;
+}
+if(bigoledogs[i] % 10 == 3){
+System.out.print(bigoledogs[i] + "rd, ");
+continue;
+}
+else
+System.out.print(bigoledogs[i] + "th, ");
+
+}
+
+ 
+}
+
+
+public static int[] getmedogs(int mydoggocamefirst) {
+int[] bigoledogs = new int[100];
+ 
+for (int i=0; i<bigoledogs.length; i++) 
+{
+	 bigoledogs[i] = i+1;
+	 if (i == mydoggocamefirst){
+	 bigoledogs[i] = 0;
+	 }
+
+}
+return bigoledogs;
+}
+}

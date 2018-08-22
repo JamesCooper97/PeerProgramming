@@ -1,0 +1,23 @@
+
+public class HelloWorld {	
+	
+	public static void main(String[] args) {
+		int a = 1; int b = 2;
+		int sum = sum(a,b);
+		System.out.println(printWorld());
+		System.out.println(sum);
+	}
+	
+	static String printWorld() {
+		String str = "hello world";
+		return str;
+	}
+	
+	static int sum(int a, int b) {
+		int sum = a + b;
+		return sum;
+	}
+	
+}
+
+

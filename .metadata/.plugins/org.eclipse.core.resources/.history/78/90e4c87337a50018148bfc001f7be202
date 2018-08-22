@@ -1,0 +1,14 @@
+
+public class Main {
+	
+public static void main(String[] args) {
+	
+	Person jordan = new Person();
+	
+	jordan.setName("Jordan");
+	jordan.setAge(22);
+	jordan.setJob("Trainee");
+	
+	System.out.println(jordan.toString());
+}
+}

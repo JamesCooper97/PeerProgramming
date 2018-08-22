@@ -1,0 +1,14 @@
+
+public class HelloWorld {	
+	
+	public static void main(String[] args) {
+		String str = "The world";
+		printWorld(str);
+	}
+	
+	static void printWorld(String str) {
+		System.out.println(str);
+	}
+}
+
+

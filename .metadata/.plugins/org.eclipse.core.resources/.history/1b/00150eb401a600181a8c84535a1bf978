@@ -1,0 +1,18 @@
+import java.util.ArrayList;
+
+public class DoggoFinder {
+	
+	ArrayList<BigScruff> kindabigscruff = new ArrayList<BigScruff>();
+	public void method1(BigScruff yeahboi)
+	{
+		kindabigscruff.add(yeahboi);
+	}
+	public void doggoFinder(String heya)
+	{
+		for (BigScruff i : kindabigscruff) {
+			if (i.getName()==heya) {
+				System.out.println(i.getPlace());
+			}
+	}
+	}
+}
